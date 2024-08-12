@@ -1,0 +1,146 @@
+
+h1, h2 {
+    text-align: center;
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form {
+    background-color: #ffffff;
+    border: 2px solid #007BFF;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+form label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus {
+    background-color: #ffffff;
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Radio buttons styling */
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form label[for="male"],
+form label[for="female"] {
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+form:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation links styling */
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    border-right: 1px solid #555;
+}
+
+
+ul li:last-child a {
+    border-right: none;
+}
+
+
+ul li a.active {
+    background-color: #4CAF50; 
+    color: white;
+    border-radius: 8px 0 0 8px;
+}
+
+
+ul li a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 8px;
+}
+form .gender-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+form .gender-container label {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+form .gender-container input[type="radio"] {
+    margin-right: 8px;
+}
